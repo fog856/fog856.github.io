@@ -2,7 +2,22 @@
 <html>
 <head>
 <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Mono:400,400i|IBM+Plex+Sans+Condensed:400,400i|IBM+Plex+Sans:100,100i,400,400i,700,700i|IBM+Plex+Serif:400,400i" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
 <style>
+.zoom {
+  padding: 0px;
+  background-color: green;
+  transition: transform .2s;
+  width: 75px;
+  height: 75px;
+  margin: 0 auto;
+}
+
+.zoom:hover {
+  -ms-transform: scale(1.5); /* IE 9 */
+  -webkit-transform: scale(1.5); /* Safari 3-8 */
+  transform: scale(1.5); 
+}
 .div1 {
   width: 10px;
   height: 10px;
@@ -11,14 +26,22 @@
 
 img {
   border-radius: 50%;
-  float:left;
+   display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 body
 {
-	font-family: 'IBM Plex Sans', sans-serif;
-	font-size: 50px;
+	font-family: 'Lobster', cursive;
+	font-size: 40px;
 	float:right
 	text-align: center;
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
 ul {
   list-style-type: none;
@@ -37,6 +60,7 @@ li {
 }
 
 li a {
+  font-family: 'IBM Plex Sans', sans-serif;
   display: block;
   color: white;
   text-align: center;
@@ -46,7 +70,7 @@ li a {
 }
 
 li a:hover {
-  font-family: Arial;
+  font-family: 'IBM Plex Sans', sans-serif;
   font-size: 23px;
   underline;
   background-color: #47476b;
@@ -72,16 +96,17 @@ body, html {
 <ul>
   
   <li><a href="achieve.html">Achievements/Interests</a></li>
-  <li><a href="contact.html">Contact</a></li>
+  <li><a class="active" href="contact.html">Contact</a></li>
    <!--<li><a  href="academics.html">Academics</a></li>!-->
   <li><a href="about.html">About Me</a></li>
-  <li><a class="active" href="index.html" >Home</a></li>  
+  <li><a  href="index.html" >Home</a></li>  
 </ul>
+<h1> <center>Contact me:</center></h1>
+<a href = "https://www.facebook.com/FoG856"><img src = "fb.png" class = "zoom" class ="center" style="width:75px;height:75px;" >
 <br>
-<img src="final2.jpg" style = "width:450px;height:450px;">
-<div ><h1> <strong> <center> Welcome to Amay's Portfolio!  </h1></center></strong></div>
-
- 
+<a href = "https://wa.me/918698155939"><img src = "wapp.jpg" class = "zoom" class ="center" style="width:75px;height:75px;" >
+<br>
+<a href = "https://github.com/fog856"><img src = "github.png"  class = "zoom" class ="center" style="width:75px;height:75px;" >
 </div>
 </body>
 </html>
