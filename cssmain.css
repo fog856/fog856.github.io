@@ -1,0 +1,340 @@
+html{
+	height: 100%;
+	overflow: hidden;
+}
+body{
+	background-color: #eeeeee;
+	text-align: center;
+	font-size: 1.7em;
+	font-family: 'Josefin Sans';
+	height: 100%;
+	overflow: auto;
+}
+
+.row{
+	margin : 0px;
+	padding: 0px;
+	height: 100%
+}
+
+
+.jumbo{
+	font-size: 3rem;
+    margin-top: 50px;
+    margin-bottom: 10px;
+	padding: 0px;
+	font-weight: 700;
+    text-align: center;
+}
+.jumbo2{
+	font-size: 3rem;
+	margin-top: 0px;
+	padding: 0px;
+	font-weight: 700;
+    text-align: center;
+}
+.ita{
+	padding: 20px;
+	padding-bottom: 10px;
+	font-weight: 300;
+	font-style: italic;
+	background-color:#f5c70f;
+}
+.content{
+	text-align: justify;
+
+}
+.quote{
+	font-style: italic;
+    font-size: 2em;
+	font-weight: 300;
+	text-align: center;
+}
+
+.bysig{
+    text-align: center;
+    padding-bottom: 80px;
+}
+.cont{
+    text-align: center;
+    padding-bottom: 0px;
+}
+
+.marr{
+	margin-bottom: 20px;
+}
+
+.alignme{
+	text-align: justify;
+}
+.sec_title{
+	font-size: 2.5em;
+	margin-bottom: 10px;
+	margin-top: 50px;
+	text-align: left;
+}
+
+.sec_title2{
+	font-size: 1.5em;
+	margin-bottom: 10px;
+	margin-top: 30px;
+}
+.txt1{
+	fill: #eeeeee;
+}
+
+.submit{
+	background: #333;
+	color: white;
+	bottom: 0px;
+	z-index: 100;
+	position: fixed;
+	height: 100%;
+	margin-left: 75%;
+	font-weight: 100;
+	font-size: 1rem;
+	font-family: 'Roboto', sans-serif;
+
+}
+.submit-content{
+	margin-top: 10px;
+}
+
+
+
+
+.quotes{
+	font-weight: 100;
+	font-size: 1rem;
+	font-family: 'Roboto', sans-serif;
+}
+
+#venn{
+	background-color: #333333;
+}
+#venn2{
+	background-color: #333333;
+}
+
+#hotwords1{
+	background-color: #333333;
+}
+
+.bootstrap-select{
+	margin-bottom: 40px;
+}
+
+.cont-car{
+	text-align: center;
+	margin-top: 70px;
+}
+
+.caru,.item{
+	height: 300px;
+}
+.caru{
+	background-color: #333;
+	margin-bottom: 30px;
+}
+.meti{
+	text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #eeeeee;
+
+}
+#carousel-time{
+	background-color: #333333;
+	text-align: center;
+}
+
+
+.pulse{
+	animation: pulse-me 3s linear infinite;
+}
+
+@keyframes pulse-me{
+	0%{
+		stroke: rgba(200,200,200,0.3);
+		stroke-width : 0px;
+	}
+	50%{
+		stroke:  rgba(200,200,200,0.5);
+		stroke-width : 20px;
+	}
+	70%{
+		stroke: rgba(200,200,200,0.5);
+		stroke-width : 30px;
+	}
+	100%{
+		stroke: rgba(200,200,200,0.3);
+		stroke-width : 40px;
+	}
+}
+
+.hlight{
+	background-color: #e8cb56;
+	padding: 2px;
+}
+
+.hlight2{
+	background-color: #eeeeee;
+	color: #333333;
+	padding: 2px;
+}
+
+.quoteform{
+	margin-bottom: 30px;
+}
+
+.card-text{
+	/* font-style: italic; */
+    font-size: 1.4em;
+	font-weight: 300;
+	text-align: center;
+	font-family: 'Josefin Sans';
+}
+
+h6{
+	font-family: 'Josefin Sans';
+	font-size: 1.1rem;
+}
+
+.card{
+	border: none;
+	background: #eeeeee;
+}
+
+.tooltiptext {
+	/* visibility: hidden; */
+	position: relative;
+	display: none;
+    width: 300px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 8px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.8rem;
+	font-weight: 100;
+	z-index: 9;
+	margin-bottom: 5px;
+  
+    /* Position the tooltip */
+
+}
+
+.card-body:hover .tooltiptext {
+	/* visibility: visible; */
+	display: block;
+}
+
+.deletequote{
+	/* display: none; */
+	visibility: hidden;
+}
+
+.card-body:hover .deletequote {
+	visibility: visible;
+	/* display: block; */
+}
+
+h4{
+	font-family: 'Roboto', sans-serif;
+	font-size: 1rem;
+	font-weight: 100;
+	line-height: 1.5;
+}
+
+.instructions{
+	border: solid 1px white;
+	border-radius: 0.25rem;
+	padding: 15px;
+	text-align: left;
+	font-size: 13px;
+}
+
+.filters{
+	font-family: 'Roboto', sans-serif;
+	color: white;
+}
+
+.filters a{
+	color: white;
+	text-decoration: none;
+}
+
+.filter-title{
+	cursor: default;
+	border-color: black;
+}
+
+.btn-secondary{
+	border-color: black;
+}
+
+.btn:focus {
+	outline: none;
+	box-shadow: none;
+  }
+
+.btn-secondary:disabled{
+	border-color: black;
+}
+
+.name-filter{
+	display: none;
+	margin-top: 10px; 
+}
+
+.year-filter{
+	display: none;
+	margin-top: 10px; 
+}
+
+.name-filter a{
+	color: white;
+	text-decoration: none;
+}
+
+.year-filter a{
+	color: white;
+	text-decoration: none;
+}
+
+.name-lists{
+	margin: 5px;
+}
+
+@media (max-width: 1400px) {
+	.submit{
+		background: #333;
+		color: white;
+		bottom: 0px;
+		z-index: 100;
+		position: relative;
+		height: fit-content;
+		margin-left: 0;
+		font-weight: 100;
+		font-size: 1rem;
+		font-family: 'Roboto', sans-serif;
+	
+	}	
+
+}
+ p a{
+	 color: white;
+	 text-decoration: none;
+ }
+
+ p a:hover{
+	 color: white;
+	 text-decoration: none;
+ }
+
+ .credits{
+	 text-align: center;
+	 font-size: 0.72rem;
+ }
